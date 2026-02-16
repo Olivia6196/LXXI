@@ -9,6 +9,7 @@ import StaggerItem from "./StaggerItem"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination'
 
 const sectorData = [
   { id: "01", title: "Commodity Trading", img: "/sector_slide_2.png", desc: "Streamlining Africa's commodity supply chains through efficient brokerage..." },
@@ -31,10 +32,11 @@ export default function Sector() {
 
       <Swiper
         modules={[Navigation, Pagination]}
+        navigation = {true}
+        pagination ={{ clickable: true}}
         centeredSlides={true}
         spaceBetween={30}
         slidesPerView={2} // This creates the "peek" effect seen in your image
-        centeredSlides={true}
         loop={true}
         initialSlide={1}
         breakpoints={{
