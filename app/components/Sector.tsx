@@ -1,9 +1,10 @@
 "use client";
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import Image from "next/image";
 import { ArrowUpRight } from 'lucide-react';
+import Stagger from "./Stagger"
+import StaggerItem from "./StaggerItem"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -19,6 +20,8 @@ const sectorData = [
 export default function Sector() {
   return (
     <section className="bg-[url(/sectors_bg.png)] bg-cover py-20 text-white overflow-hidden" id="sector">
+      <Stagger>
+                  <StaggerItem>
       <div className="flex justify-between items-center px-10 md:px-28 mb-12">
         <h2 className="text-2xl font-semibold uppercase pb-10">Sectors We Operate ?</h2>
         <a href="#" className="text-yellow-400 border-b border-yellow-400 pb-1 hover:text-white hover:border-white transition-all">
@@ -80,6 +83,8 @@ export default function Sector() {
           <div className="absolute top-0 left-0 w-1/3 h-full bg-white transition-all duration-300" />
         </div>
       </div>
+       </StaggerItem>
+              </Stagger>
     </section>
   );
 }

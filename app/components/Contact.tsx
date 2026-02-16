@@ -1,8 +1,12 @@
 import Image from "next/image";
+import Stagger from "./Stagger"
+import StaggerItem from "./StaggerItem"
 export default function Contact(){
     return(
         <>
         <section id="insights" className="bg-[url(/contact_bg.png)] bg-cover bg-center text-white text-center pt-28">
+        <Stagger>
+                    <StaggerItem>
             <Image src="/contact.png" alt="polygon" width={72.95} height={38.11} className="m-auto"></Image>
              <form className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 pt-16">
     <div className="flex flex-col">
@@ -27,8 +31,12 @@ export default function Contact(){
       </button>
     </div>
   </form>
+   </StaggerItem>
+          </Stagger>
         </section>
         <section className="bg-black text-white pt-28 pb-12">
+          <Stagger>
+                      <StaggerItem>
             <div className="flex justify-center gap-72">
                 <div>
                     <h3 className="text-xl font-semibold pb-4 pt-3">Address</h3>
@@ -49,6 +57,8 @@ export default function Contact(){
                     <i className="bx bxs-share rotate-180 absolute top-72 text-yellow-400 text-2xl right-1.5 bg-white p-2 rounded-full shadow-[0_0_4px_black]"></i>
                 </div>
             </div>
+             </StaggerItem>
+                    </Stagger>
         </section>
         </>
     )

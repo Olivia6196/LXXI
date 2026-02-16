@@ -1,7 +1,11 @@
 import Image from "next/image";
+import Stagger from "./Stagger"
+import StaggerItem from "./StaggerItem"
 export default function Career(){
     return(
         <section className="bg-[url(/opportunities_bg.png)] bg-cover pt-16 pl-20 pb-16" id="career"> 
+         <Stagger>
+                    <StaggerItem>
             <h2 className="text-white text-4xl pb-9">Opportunities</h2>
             <div className="flex text-white gap-10">
                 <div className="flex gap-5 border border-white py-2 px-4 rounded-md">
@@ -26,6 +30,8 @@ export default function Career(){
                     </div>
                 </div>
             </div>
+                </StaggerItem>
+                    </Stagger>
         </section>
     )
 }

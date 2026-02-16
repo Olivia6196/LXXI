@@ -1,7 +1,11 @@
 import Image from "next/image";
+import Stagger from "./Stagger"
+import StaggerItem from "./StaggerItem"
 export default function Pillars(){
     return(
         <section className="bg-[url(/values.png)] bg-cover pt-28" id="approach">
+            <Stagger>
+                        <StaggerItem>
             <h2 className="text-white text-4xl text-center font-semibold pb-2">Our Value Pillars</h2>
             <p className="text-white text-lg text-center font-semibold">Explore our core strength</p>
             <div className=" flex justify-center text-white py-28 gap-24">
@@ -37,6 +41,8 @@ export default function Pillars(){
             <div className="text-center pb-12 text-yellow-400 font-semibold text-xl">
                  <a href="" className="border-b-2 border-transparent hover:border-b-2 hover:border-yellow-400 pb-1">Learn More</a>
             </div>
+              </StaggerItem>
+                    </Stagger>
         </section>
     )
 }

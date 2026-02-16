@@ -1,7 +1,11 @@
+import Stagger from "./Stagger"
+import StaggerItem from "./StaggerItem"
 export default function About(){
     return(
         <>
           <section className="bg-[url(/about_image.png)] bg-cover pt-16" id="about">
+          <Stagger>
+                      <StaggerItem>
             <h2 className=" text-white text-3xl font-semibold text-center pb-2"><span className="text-yellow-400">LXXI Limited</span>- The Present and <br />Future of Wealth Creation in Africa</h2>
             <p className=" text-white font-semibold text-center pb-12">Building Africa’s wealth with Precision, Partnership and Purpose.</p>
             <div className="flex justify-center text-white gap-10 pt-4 pb-32">
@@ -15,6 +19,8 @@ export default function About(){
             <div className="text-center pb-24">
                 <a href="" className="bg-yellow-400 rounded-lg py-4 px-7 font-semibold">Learn About LXX</a>
             </div>
+            </StaggerItem>
+                    </Stagger>
            </section>
         </>
     )

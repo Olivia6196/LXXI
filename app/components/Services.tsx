@@ -1,7 +1,10 @@
-
+import Stagger from "./Stagger"
+import StaggerItem from "./StaggerItem"
 export default function Services(){
     return(
         <section className="bg-[url(/service_bg.png)] bg-cover pt-20 pl-28 pb-12" id="service">
+             <Stagger>
+                        <StaggerItem>
             <h2 className="text-white text-4xl pb-4">What We do</h2>
             <p className="text-white pb-16">LXXI Limited is an Africa-focused investment brokerage and asset management firm,<br /> enhancing economic growth through impactful investments.</p>
             <div className="flex text-white gap-8 relative">
@@ -27,6 +30,8 @@ export default function Services(){
             <div className="text-center pt-9 text-yellow-400 font-semibold text-xl">
                  <a href="" className="border-b-2 border-transparent hover:border-b-2 hover:border-yellow-400 pb-2 hover:text-white transition-all">See More<i className="bx bx-chevron-right align-middle text-5xl"></i></a>
             </div>
+                </StaggerItem>
+                    </Stagger>
         </section>
     )
 }

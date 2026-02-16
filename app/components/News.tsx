@@ -1,6 +1,10 @@
+import Stagger from "./Stagger"
+import StaggerItem from "./StaggerItem"
 export default function News(){
     return(
         <section id="news">
+             <Stagger>
+                        <StaggerItem>
             <div className="flex justify-center pt-28 gap-80 pb-12">
                 <div className="w-[21.5vw] pt-8">
                     <h2 className="font-medium pb-8">Press Release</h2>
@@ -13,6 +17,8 @@ export default function News(){
                     <p className="text-xs font-semibold"><i className="bx bx-chevron-right text-yellow-400 font-semibold text-2xl align-middle"></i>Read and subscribe to LXXI news</p>
                 </div>
             </div>
+                </StaggerItem>
+                    </Stagger>
         </section>
     )
 }
