@@ -9,10 +9,3 @@ html, body {
     margin: 0;
     padding: 0;
 }
-.swiper-button-next::after,
-.swiper-button-prev::after{
-    color: #fdb822;
-}
-.swiper {
-    position: relative;
-}

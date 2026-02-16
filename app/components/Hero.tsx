@@ -26,8 +26,8 @@ export default function Hero(){
            
             <p className="text-center pb-12 text-white font-semibold"><span className="text-yellow-400">LXXI</span> is committed to creating robust investment solutions tailored for <br />the African landscape.</p>
             <div className="flex justify-center gap-14">
-            <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold">Explore Our Services</a>
-            <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold">Partner With Us</a>
+            <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold hover:bg-white hover:text-yellow-400">Explore Our Services</a>
+            <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold hover:bg-black hover:text-white">Partner With Us</a>
             </div>
              </StaggerItem>
         </Stagger>
@@ -41,8 +41,8 @@ export default function Hero(){
            
             <p className="text-center pb-12 text-white font-semibold"><span className="text-yellow-400">LXXI</span> is committed to creating robust investment solutions tailored for <br />the African landscape.</p>
             <div className="flex justify-center gap-14">
-            <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold">Explore Our Services</a>
-            <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold">Partner With Us</a>
+            <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold hover:bg-white hover:text-yellow-400">Explore Our Services</a>
+            <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold hover:bg-black hover:text-white">Partner With Us</a>
             </div>
              </StaggerItem>
         </Stagger>
@@ -56,8 +56,8 @@ export default function Hero(){
            
             <p className="text-center pb-12 text-white font-semibold"><span className="text-yellow-400">LXXI</span> is committed to creating robust investment solutions tailored for <br />the African landscape.</p>
             <div className="flex justify-center gap-14">
-            <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold">Explore Our Services</a>
-            <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold">Partner With Us</a>
+            <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold hover:bg-white hover:text-yellow-400">Explore Our Services</a>
+            <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold hover:bg-black hover:text-white">Partner With Us</a>
             </div>
              </StaggerItem>
         </Stagger>

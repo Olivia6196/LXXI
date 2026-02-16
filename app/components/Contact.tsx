@@ -26,7 +26,7 @@ export default function Contact(){
       <input type="text" placeholder="Type your message here" id="message" name="message" className="p-3 rounded-md bg-white text-black outline-none" />
     </div>
     <div className="md:col-span-2 flex justify-center mt-6">
-      <button className="bg-yellow-400 text-black font-bold py-3 px-12 rounded-lg hover:bg-yellow-500 transition-all mb-7">
+      <button className="bg-yellow-400 text-black font-bold py-3 px-12 rounded-lg hover:bg-white hover:shadow-[0_0_8px_yellow] transition-all mb-7">
         Submit
       </button>
     </div>
