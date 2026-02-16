@@ -1,28 +1,28 @@
 import Image from "next/image";
 export default function Career(){
     return(
-        <section>
-            <h2>Opportunities</h2>
-            <div>
-                <div>
-                    <div><Image src="/opportunity_one.png" alt="image" width={120.07} height={92.13}></Image></div>
+        <section className="bg-[url(/opportunities_bg.png)] bg-cover pt-16 pl-20 pb-16" id="career"> 
+            <h2 className="text-white text-4xl pb-9">Opportunities</h2>
+            <div className="flex text-white gap-10">
+                <div className="flex gap-5 border border-white py-2 px-4 rounded-md">
+                    <div><Image src="/opportunity_one.png" alt="image" width={110.99} height={92.13}></Image></div>
                     <div>
-                        <h3>Professional Roles</h3>
-                        <p>Explore diverse career paths to grow your professional skillset.</p>
+                        <h3 className="text-sm font-semibold pb-1.5 pt-2">Professional Roles</h3>
+                        <p className="text-xs">Explore diverse career paths to grow <br /> your professional skillset.</p>
                     </div>
                 </div>
-                <div>
-                    <div><Image src="/opportunity_two.png" alt="image" width={107.99} height={90.62}></Image></div>
+                <div className="flex gap-5 border border-white py-2 px-4 rounded-md">
+                    <div><Image src="/opportunity_two.png" alt="image" width={100.99} height={90.62}></Image></div>
                     <div>
-                        <h3>Graduate Internship Programs</h3>
-                        <p>Join hands with industry leaders and gain first-hand experience.</p>
+                        <h3 className="text-sm font-semibold pb-1.5 pt-2">Graduate Internship Programs</h3>
+                        <p className="text-xs">Join hands with industry leaders <br />and gain first-hand experience.</p>
                     </div>
                 </div>
-                <div>
-                    <div><Image src="/opportunity_three.png" alt="image" width={107.99} height={80.8}></Image></div>
+                <div className="flex gap-5 border border-white py-2 px-4 rounded-md">
+                    <div><Image src="/opportunity_three.png" alt="image" width={100.99} height={80.8}></Image></div>
                     <div>
-                        <h3>Leadership Development Tracks</h3>
-                        <p>Accelerate your career with our leadership programs.</p>
+                        <h3 className="text-sm font-semibold pb-1.5 pt-2">Leadership Development Tracks</h3>
+                        <p className="text-xs">Accelerate your career with our <br />leadership programs.</p>
                     </div>
                 </div>
             </div>

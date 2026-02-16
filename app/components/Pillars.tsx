@@ -1,40 +1,42 @@
 import Image from "next/image";
 export default function Pillars(){
     return(
-        <section>
-            <h2>Our Value Pillars</h2>
-            <p>Explore our core strength</p>
-            <div>
-                <div>
-                    <div><Image src="/integrity.png" alt="integrity" width={75.51} height={77.49}></Image></div>
+        <section className="bg-[url(/values.png)] bg-cover pt-28" id="approach">
+            <h2 className="text-white text-4xl text-center font-semibold pb-2">Our Value Pillars</h2>
+            <p className="text-white text-lg text-center font-semibold">Explore our core strength</p>
+            <div className=" flex justify-center text-white py-28 gap-24">
+                <div className="flex items-center gap-4">
+                    <div><Image src="/integrity.png" alt="integrity" width={55.51} height={77.49}></Image></div>
                     <div>
-                        <h3>Integrity</h3>
-                        <p>Committed to ethical practices.</p>
+                        <h3 className="font-semibold">Integrity</h3>
+                        <p className="text-xs font-medium pt-2">Committed to ethical <br />practices.</p>
                     </div>
                 </div>
-                <div>
-                    <div><Image src="/innovation.png" alt="integrity" width={75.51} height={75.51}></Image></div>
+                <div className="flex items-center gap-4">
+                    <div><Image src="/innovation.png" alt="integrity" width={55.51} height={75.51}></Image></div>
                     <div>
-                        <h3>Innovation</h3>
-                        <p>Driving change through creative solutions.</p>
+                        <h3 className="font-semibold">Innovation</h3>
+                        <p className="text-xs font-medium pt-2">Driving change through <br /> creative solutions.</p>
                     </div>
                 </div>
-                <div>
-                    <div><Image src="/collaboration.png" alt="integrity" width={75.51} height={77.49}></Image></div>
+                <div className="flex items-center gap-4">
+                    <div><Image src="/collaboration.png" alt="integrity" width={55.51} height={77.49}></Image></div>
                     <div>
-                        <h3>Collaboration</h3>
-                        <p>Building partnerships for success.</p>
+                        <h3 className="font-semibold">Collaboration</h3>
+                        <p className="text-xs font-medium pt-2">Building partnerships for <br />success.</p>
                     </div>
                 </div>
-                <div>
-                    <div><Image src="/impact.png" alt="integrity" width={75.51} height={77.49}></Image></div>
+                <div className="flex items-center gap-4">
+                    <div><Image src="/impact.png" alt="integrity" width={55.51} height={77.49}></Image></div>
                     <div>
-                        <h3>Impact</h3>
-                        <p>Creating sustainable, measurable outcomes</p>
+                        <h3 className="font-semibold">Impact</h3>
+                        <p className="text-xs font-medium pt-2">Creating sustainable,<br /> measurable outcomes</p>
                     </div>
                 </div>
             </div>
-            <a href="">Learn More</a>
+            <div className="text-center pb-12 text-yellow-400 font-semibold text-xl">
+                 <a href="" className="border-b-2 border-transparent hover:border-b-2 hover:border-yellow-400 pb-1">Learn More</a>
+            </div>
         </section>
     )
 }

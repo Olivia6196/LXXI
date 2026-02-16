@@ -1,6 +1,6 @@
 export default function News(){
     return(
-        <section>
+        <section id="news">
             <div>
                 <div>
                     <h2>Press Release</h2>

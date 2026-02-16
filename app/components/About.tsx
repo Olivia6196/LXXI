@@ -1,19 +1,21 @@
 export default function About(){
     return(
         <>
-          <section>
-            <h2>LXXI Limited- The Present and Future of Wealth Creation in Africa</h2>
-            <p>Building Africa’s wealth with Precision, Partnership and Purpose.</p>
-            <div>
+          <section className="bg-[url(/about_image.png)] bg-cover pt-16" id="about">
+            <h2 className=" text-white text-3xl font-semibold text-center pb-2"><span className="text-yellow-400">LXXI Limited</span>- The Present and <br />Future of Wealth Creation in Africa</h2>
+            <p className=" text-white font-semibold text-center pb-12">Building Africa’s wealth with Precision, Partnership and Purpose.</p>
+            <div className="flex justify-center text-white gap-10 pt-4 pb-32">
                 <div>
-                    <p>We are Africa’s Strategic investment brokerage and Asset management powerhouse, shaping the continent’s wealth through transformative partnership, private equity, and growth-driven ventures.</p>
+                    <p className="w-[28vw]">We are Africa’s Strategic investment brokerage and Asset management powerhouse, shaping the continent’s wealth through transformative partnership, private equity, and growth-driven ventures.</p>
                 </div>
                 <div>
-                    <p>At LXXI Limited, we are rewriting Africa’s wealth narrative. As a brokerage and asset management powerhouse, we bridge capital, opportunities, and strategic alliances to create sustainable wealth across Africa’s most promising sectors.</p>
+                    <p className="w-[25vw]  border-l-2 border-white pl-9">At LXXI Limited, we are rewriting Africa’s wealth narrative. As a brokerage and asset management powerhouse, we bridge capital, opportunities, and strategic alliances to create sustainable wealth across Africa’s most promising sectors.</p>
                 </div>
             </div>
-            <a href="">Learn About LXX</a>
-          </section>
+            <div className="text-center pb-24">
+                <a href="" className="bg-yellow-400 rounded-lg py-4 px-7 font-semibold">Learn About LXX</a>
+            </div>
+           </section>
         </>
     )
 }

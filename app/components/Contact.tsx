@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Contact(){
     return(
         <>
-        <section>
+        <section id="insights">
             <Image src="/contact.png" alt="polygon" width={42.95} height={38.11}></Image>
             <h2>Let’s Build Wealth Together</h2>
             <form action="mailto:Partnerships@lxxilimited.com" method="post">

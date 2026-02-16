@@ -1,13 +1,15 @@
 export default function Hero(){
     return(
         <>
-        <div>
-            <h1>Empowering Africa Through Strategic Investments And Partnerships.</h1>
-            <p>LXXI is committed to creating robust investment solutions tailored for the African landscape.</p>
-            <a href="">Explore Our Services</a>
-            <a href="">Partner With Us</a>
+        <div className="bg-[url(/hero_image_1.png)] bg-cover pb-44 h-screen pt-64">
+            <h1 className=" text-5xl text-center pb-4.5 text-white font-semibold leading-14">Empowering <span className="text-yellow-400">Africa </span>Through <br /> Strategic Investments And <br /> Partnerships.</h1>
+            <p className="text-center pb-12 text-white font-semibold"><span className="text-yellow-400">LXXI</span> is committed to creating robust investment solutions tailored for <br />the African landscape.</p>
+            <div className="flex justify-center gap-14">
+            <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold">Explore Our Services</a>
+            <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold">Partner With Us</a>
+            </div>
         </div>
-        <p>Value Pillars: Global Brokerage Excellence, Transformative Partnerships, Asset Growth & Protection, Africa First, Globally Minded: </p>
+        <p className="bg-black text-yellow-400 text-center p-2 text-xl">Value Pillars: Global Brokerage Excellence, Transformative Partnerships, Asset Growth & Protection, Africa First, Globally Minded.</p>
         </>
     )
 }

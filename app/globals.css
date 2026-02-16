@@ -1,2 +1,11 @@
 @import "tailwindcss";
 @import "boxicons/css/boxicons.min.css";
+
+html, body {
+    overflow-x:hidden;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    margin: 0;
+    padding: 0;
+}
