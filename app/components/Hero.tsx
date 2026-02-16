@@ -1,7 +1,7 @@
 export default function Hero(){
     return(
         <>
-        <div className="bg-[url(/hero_image_1.png)] bg-cover pb-44 h-screen pt-64">
+        <div className="bg-[url(/hero_image_1.png)] bg-cover pb-44 h-screen pt-64 mt-[-2vw]">
             <h1 className=" text-5xl text-center pb-4.5 text-white font-semibold leading-14">Empowering <span className="text-yellow-400">Africa </span>Through <br /> Strategic Investments And <br /> Partnerships.</h1>
             <p className="text-center pb-12 text-white font-semibold"><span className="text-yellow-400">LXXI</span> is committed to creating robust investment solutions tailored for <br />the African landscape.</p>
             <div className="flex justify-center gap-14">

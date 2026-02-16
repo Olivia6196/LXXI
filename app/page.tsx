@@ -8,6 +8,7 @@ import Career from "./components/Career";
 import Sector from "./components/Sector";
 import News from "./components/News";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     <Sector />
     <News />
     <Contact />
+    <Footer />
     </>
   );
 }
