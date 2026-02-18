@@ -2,7 +2,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import Image from "next/image";
-import { ArrowUpRight } from 'lucide-react';
 import Stagger from "./Stagger"
 import StaggerItem from "./StaggerItem"
 
@@ -10,6 +9,7 @@ import StaggerItem from "./StaggerItem"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
+import { HiArrowUpRight } from 'react-icons/hi2';
 
 const sectorData = [
   { id: "01", title: "Commodity Trading", img: "/sector_slide_2.png", desc: "Streamlining Africa's commodity supply chains through efficient brokerage..." },
@@ -56,7 +56,7 @@ export default function Sector() {
               />
               
               {/* Dark Gradient Overlay - Exactly like the photo */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
 
               {/* Text Content */}
               <div className="absolute bottom-0 left-0 p-8 w-full">
@@ -68,7 +68,7 @@ export default function Sector() {
                 
                 {/* Diagonal Arrow Icon */}
                 <div className="absolute bottom-10 right-10 border border-white/30 rounded-full p-2 group-hover:bg-yellow-400 group-hover:text-black transition-all">
-                  <ArrowUpRight size={22} />
+                  <HiArrowUpRight size={22} />
                 </div>
               </div>
             </div>

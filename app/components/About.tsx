@@ -10,10 +10,10 @@ export default function About(){
             <p className=" text-white font-semibold text-center pb-12">Building Africa’s wealth with Precision, Partnership and Purpose.</p>
             <div className="flex justify-center text-white gap-10 pt-4 pb-32">
                 <div>
-                    <p className="w-[28vw]">We are Africa’s Strategic investment brokerage and Asset management powerhouse, shaping the continent’s wealth through transformative partnership, private equity, and growth-driven ventures.</p>
+                    <p className=" w-[34vw] lg:w-[28vw] ">We are Africa’s Strategic investment brokerage and Asset management powerhouse, shaping the continent’s wealth through transformative partnership, private equity, and growth-driven ventures.</p>
                 </div>
                 <div>
-                    <p className="w-[25vw]  border-l-2 border-white pl-9">At LXXI Limited, we are rewriting Africa’s wealth narrative. As a brokerage and asset management powerhouse, we bridge capital, opportunities, and strategic alliances to create sustainable wealth across Africa’s most promising sectors.</p>
+                    <p className="w-[35vw] lg:w-[25vw]  border-l-2 border-white pl-9">At LXXI Limited, we are rewriting Africa’s wealth narrative. As a brokerage and asset management powerhouse, we bridge capital, opportunities, and strategic alliances to create sustainable wealth across Africa’s most promising sectors.</p>
                 </div>
             </div>
             <div className="text-center pb-24">
