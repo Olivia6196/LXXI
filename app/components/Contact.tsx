@@ -41,7 +41,7 @@ export default function Contact() {
       <section className="bg-black text-white pt-28 pb-12 px-20 lg:px-0">
         <Stagger>
           <StaggerItem>
-            <div className="flex justify-center gap-20 lg:gap-72">
+            <div className="flex flex-col md:flex-row justify-center gap-20 lg:gap-72">
               <div>
                 <h3 className="text-xl font-semibold pb-4 pt-3">Address</h3>
                 <p><Image src="/email_icon.png" alt="email icon" width={40} height={20} className="inline align-middle bg-yellow-400 p-2 rounded-full mr-2"></Image>NO: 23,  Wuse 2, abjua, FCT.</p>

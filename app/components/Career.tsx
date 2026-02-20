@@ -3,7 +3,7 @@ import Stagger from "./Stagger"
 import StaggerItem from "./StaggerItem"
 export default function Career(){
     return(
-        <section className="bg-[url(/opportunities_bg.png)] bg-cover pt-16 pl-20 pb-16" id="career"> 
+        <section className="bg-[url(/opportunities_bg.png)] bg-cover pt-16 px-12 md:pr-0 md:pl-20 pb-16" id="career"> 
          <Stagger>
                     <StaggerItem>
             <h2 className="text-white text-4xl pb-9">Opportunities</h2>
