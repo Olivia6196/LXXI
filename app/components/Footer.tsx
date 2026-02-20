@@ -5,7 +5,7 @@ export default function Footer(){
         <section className="bg-gray-900 py-7 text-white text-sm">
            <Stagger>
                        <StaggerItem>
-            <div className="flex justify-center gap-32">
+            <div className="flex justify-center gap-8 lg:gap-32">
                 <div>© 2026 LXXI Limited</div>
                 <div>Privacy Policy</div>
                 <div>Terms of Service</div>

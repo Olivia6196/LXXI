@@ -19,10 +19,10 @@ export default function Hero() {
                 className="h-full w-full"
             >
                 <SwiperSlide>
-                    <div className="bg-[url(/hero_image_1.png)] bg-cover pb-44 h-screen pt-64 mt-[-2vw]">
+                    <div className="bg-[url(/hero_image_1.png)] bg-cover pb-44 h-screen pt-64 mt-[-5vw] md:mt-[-2vw]">
                         <Stagger>
                             <StaggerItem>
-                                <h1 className=" text-5xl text-center pb-4.5 text-white font-semibold leading-14">
+                                <h1 className="text-3xl md:text-5xl text-center pb-4.5 text-white font-semibold leading-14">
                                     Empowering
                                     <span className="text-yellow-400">Africa </span>
                                     Through <br /> Strategic Investments And <br />
@@ -34,7 +34,7 @@ export default function Hero() {
                                     is committed to creating robust investment solutions tailored for <br />
                                     the African landscape.
                                 </p>
-                                <div className="flex justify-center gap-14">
+                                <div className="flex justify-center mx-6 md:mx-0 gap-5 md:gap-14">
                                     <a href="#" className="bg-yellow-400 rounded-lg p-4 font-semibold hover:bg-white hover:text-yellow-400">
                                         Explore Our Services
                                     </a>
@@ -50,9 +50,9 @@ export default function Hero() {
                     <div className="bg-[url(/hero_image_2.png)] bg-cover pb-44 h-screen pt-64 mt-[-2vw]">
                         <Stagger>
                             <StaggerItem>
-                                <h1 className=" text-5xl text-center pb-4.5 text-white font-semibold leading-14">
+                                <h1 className="text-3xl md:text-5xl text-center pb-4.5 text-white font-semibold leading-14">
                                     Empowering 
-                                    <span className="text-yellow-400">Africa </span>
+                                    <span className="text-yellow-400"> Africa </span>
                                     Through <br /> Strategic Investments And <br /> Partnerships.
                                 </h1>
 
@@ -60,7 +60,7 @@ export default function Hero() {
                                     <span className="text-yellow-400">LXXI</span> 
                                     is committed to creating robust investment solutions tailored for <br />the African landscape.
                                 </p>
-                                <div className="flex justify-center gap-14">
+                                <div className="flex justify-center mx-6 md:mx-0 gap-5 md:gap-14">
                                     <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold hover:bg-white hover:text-yellow-400">
                                         Explore Our Services
                                     </a>
@@ -76,10 +76,10 @@ export default function Hero() {
                     <div className="bg-[url(/hero_image_3.png)] bg-cover pb-44 h-screen pt-64 mt-[-2vw]">
                         <Stagger>
                             <StaggerItem>
-                                <h1 className=" text-5xl text-center pb-4.5 text-white font-semibold leading-14">Empowering <span className="text-yellow-400">Africa </span>Through <br /> Strategic Investments And <br /> Partnerships.</h1>
+                                <h1 className="text-3xl md:text-5xl text-center pb-4.5 text-white font-semibold leading-14">Empowering <span className="text-yellow-400"> Africa </span>Through <br /> Strategic Investments And <br /> Partnerships.</h1>
 
                                 <p className="text-center lg:pb-12 pb-32 text-white font-semibold"><span className="text-yellow-400">LXXI</span> is committed to creating robust investment solutions tailored for <br />the African landscape.</p>
-                                <div className="flex justify-center gap-14">
+                                <div className="flex justify-center mx-6 md:mx-0 gap-5 md:gap-14">
                                     <a href="" className="bg-yellow-400 rounded-lg p-4 font-semibold hover:bg-white hover:text-yellow-400">Explore Our Services</a>
                                     <a href="" className="bg-white rounded-lg py-4 px-6 font-semibold hover:bg-black hover:text-white">Partner With Us</a>
                                 </div>
@@ -88,7 +88,7 @@ export default function Hero() {
                     </div>
                 </SwiperSlide>
             </Swiper>
-            <p className="bg-black text-yellow-400 text-center p-2 text-xl">Value Pillars: Global Brokerage Excellence, Transformative Partnerships, Asset Growth & Protection, Africa First, Globally Minded.</p>
+            <p className="bg-black text-yellow-400 text-center p-2 text-sm md:text-xl">Value Pillars: Global Brokerage Excellence, Transformative Partnerships, Asset Growth & Protection, Africa First, Globally Minded.</p>
         </>
     )
 }

@@ -8,7 +8,7 @@ export default function Pillars(){
                         <StaggerItem>
             <h2 className="text-white text-4xl text-center font-semibold pb-2">Our Value Pillars</h2>
             <p className="text-white text-lg text-center font-semibold">Explore our core strength</p>
-            <div className=" flex justify-center text-white py-28 gap-24">
+            <div className="grid grid-cols-2 md:pl-24 lg:flex justify-center text-white py-28 gap-16 lg:gap-24">
                 <div className="flex items-center gap-4">
                     <div><Image src="/integrity.png" alt="integrity" width={55.51} height={77.49}></Image></div>
                     <div>

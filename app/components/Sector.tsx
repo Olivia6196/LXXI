@@ -46,7 +46,7 @@ export default function Sector() {
       >
         {sectorData.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="relative group rounded-3xl overflow-hidden h-[20vw] shadow-2xl">
+            <div className="relative group rounded-3xl overflow-hidden h-[40vw] lg:h-[20vw] shadow-2xl">
               {/* Main Image */}
               <Image 
                 src={item.img} 
@@ -60,7 +60,7 @@ export default function Sector() {
 
               {/* Text Content */}
               <div className="absolute bottom-0 left-0 p-8 w-full">
-                <span className="text-3xl font-bold block mb-2 opacity-80">{item.id}</span>
+                <span className="text-3xl font-bold block pt-8 lg:pt-0 mb-2 opacity-80">{item.id}</span>
                 <h3 className="text-xl font-bold uppercase mb-3 tracking-wide">{item.title}</h3>
                 <p className="text-sm text-gray-300 leading-relaxed max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   {item.desc}
@@ -90,39 +90,3 @@ export default function Sector() {
     </section>
   );
 }
-// export default function Sector(){
-//     return(
-//         <section className="bg-[url(/sectors_bg.png)] bg-cover" id="sector">
-//             <div className="flex justify-between px-28">
-//                 <div className="py-16 text-white text-2xl font-semibold"><h2>SECTORS WE OPERATE?</h2></div>
-//                 <div className="pt-24 pb-10 pr-32"><a href="" className="text-yellow-400 border-b-2 border-b-yellow-400 pb-2 hover:border-b-transparent">See All</a></div>
-//             </div>
-//             <div className="flex">
-//                <div>
-//                 <Image src="/sector_slide_2.png" alt="sector_slide_1.png" width={299} height={99}></Image>
-//                   <h2>01</h2>
-//                   <h3>Commodity trading</h3>
-//                   <p>Streamlining Africa’s commodity supply chains through efficient brokerage of agricultural produce, minerals, and energy commodities, ensuring stable market access globally</p>
-//                </div>
-//                <div>
-//                 <Image src="/sector_slide_3.png" alt="sector_slide_2.png" width={399} height={99}></Image>
-//                   <h2>02</h2>
-//                   <h3>Capital goods and Infrastructure</h3>
-//                   <p>Enabling Africa’s infrastructure renaissance through capital goods trading , logistics facilitation, and infrastructural asset management.</p>
-//                </div>
-//                <div>
-//                 <Image src="/sector_slide_1.png" alt="sector_slide_4.png" width={220} height={99}></Image>
-//                   <h2>03</h2>
-//                   <h3>Private Equity</h3>
-//                   <p>Empowering high-growth African enterprises with capital injections, growth advisory, and strategic scaling through bespoke PE models. </p>
-//                </div>
-//                <div>
-//                 <Image src="/sector_slide_4.png" alt="sector_slide_4.png" width={299} height={99}></Image>
-//                   <h2>04</h2>
-//                   <h3>Financial Advisory and Structured Finances</h3>
-//                   <p>Innovative financial structuring and strategic advisory to suport projects and enterprises across African Markets.</p>
-//                </div>
-//             </div>
-//         </section>
-//     )
-// }

@@ -7,7 +7,7 @@ export default function Career(){
          <Stagger>
                     <StaggerItem>
             <h2 className="text-white text-4xl pb-9">Opportunities</h2>
-            <div className="flex text-white gap-10">
+            <div className="grid grid-col-1 md:mr-20 lg:flex text-white gap-10">
                 <div className="flex gap-5 border border-white py-2 px-4 rounded-md">
                     <div><Image src="/opportunity_one.png" alt="image" width={110.99} height={92.13}></Image></div>
                     <div>

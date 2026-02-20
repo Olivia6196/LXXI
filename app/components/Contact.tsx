@@ -8,7 +8,7 @@ import { BsWhatsapp } from "react-icons/bs";
 export default function Contact() {
   return (
     <>
-      <section id="insights" className="bg-[url(/contact_bg.png)] bg-cover bg-center text-white text-center pt-28">
+      <section id="insights" className="bg-[url(/contact_bg.png)] bg-cover bg-center text-white text-center pt-28 px-12 lg:px-0">
         <Stagger>
           <StaggerItem>
             <Image src="/contact.png" alt="polygon" width={72.95} height={38.11} className="m-auto"></Image>
@@ -38,10 +38,10 @@ export default function Contact() {
           </StaggerItem>
         </Stagger>
       </section>
-      <section className="bg-black text-white pt-28 pb-12">
+      <section className="bg-black text-white pt-28 pb-12 px-20 lg:px-0">
         <Stagger>
           <StaggerItem>
-            <div className="flex justify-center gap-72">
+            <div className="flex justify-center gap-20 lg:gap-72">
               <div>
                 <h3 className="text-xl font-semibold pb-4 pt-3">Address</h3>
                 <p><Image src="/email_icon.png" alt="email icon" width={40} height={20} className="inline align-middle bg-yellow-400 p-2 rounded-full mr-2"></Image>NO: 23,  Wuse 2, abjua, FCT.</p>
@@ -56,7 +56,7 @@ export default function Contact() {
                 <a href="" ><BsWhatsapp className="inline text-5xl bg-green-500 rounded-full py-2 px-3 mr-3"/></a>
               </div>
               <div className="relative">
-                <Image src="/location.png" alt="union" width={242.95} height={38.11} className="h-[25vw] w-[25vw] pt-8 relative rounded-lg"></Image>
+                <Image src="/location.png" alt="union" width={242.95} height={38.11} className="h-[45vw] w-[30vw] pt-8 relative rounded-lg"></Image>
                 <IoIosSend className="absolute top-48 text-yellow-400 text-5xl right-2.5 bg-white p-2 rounded-full shadow-[0_0_4px_black]" />
                 <LiaShareSolid className="absolute top-64 text-yellow-400 text-5xl right-2.5 bg-white p-2 rounded-full shadow-[0_0_4px_black]" />
               </div>
